@@ -1,6 +1,9 @@
 # tomcat-docker-ssl
 Sample WEB app with docker file and other configs needed for setting up SSL and enabling HSTS (filter in web.xml) on Tomcat in Docker
 
+## Docker hub repo
+sg4j/tomcat-ssl-sample
+
 ## Build: 
 docker build -t tomcat-sample .
 ****************************************************
