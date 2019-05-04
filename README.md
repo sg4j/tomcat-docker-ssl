@@ -17,6 +17,6 @@ https:\\localhost:8443\sample
 ****************************************************
 
 ## Create Cert/Key
-openssl req -new -newkey rsa:4096 -days 30 -nodes -x509 -subj \
-    "/C=US/ST=Nevada/L=Vegas/O=wiki/CN=tomcat.sample.com" -keyout \
-    ./ssl.key -out ./ssl.crt
+openssl req -new -newkey rsa:4096 -days 30 -nodes -x509 \
+    -subj "/C=US/ST=Nevada/L=Vegas/O=wiki/CN=tomcat.sample.com" \
+    -keyout ./ssl.key -out ./ssl.crt
