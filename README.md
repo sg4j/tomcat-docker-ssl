@@ -1,5 +1,5 @@
 # tomcat-docker-ssl
-Sample WEB app with docker file and other configs needed for setting up SSL on Tomcat in Docker
+Sample WEB app with docker file and other configs needed for setting up SSL and enabling HSTS (filter in web.xml) on Tomcat in Docker
 
 ## Build: 
 docker build -t tomcat-sample .
